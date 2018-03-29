@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>schutze.hades.intellij.idea.fiction.reader</id>
+    <name>Fiction Reader</name>
+    <description>A simple fiction reader.</description>
+    <version>2.0</version>
+    <vendor email="yumen.xiexingzun@gmail.com" url="https://schutzehades.github.io">SchützeそHades</vendor>
+
+    <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="141.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Fiction Reader" secondary="false" anchor="bottom"
+                    factoryClass="schutze.hades.intellij.idea.fiction.reader.ReaderToolWindowFactory"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
